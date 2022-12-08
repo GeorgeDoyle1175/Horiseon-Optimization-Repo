@@ -1,4 +1,4 @@
-/* Global Elements*/
+/***************** Global Classes *****************/
 
 * {
     box-sizing: border-box;
@@ -10,6 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/********* Header Attributes*********/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,6 +53,7 @@ p {
     font-size: 16px;
 }
 
+/******* Helper Classes - Duplicate classes were consolidated in order to remove reduncancy and simplify css ********/
 .hero {
     height: 800px;
     width: 100%;
@@ -122,6 +124,7 @@ p {
     font-size: 36px;
 }
 
+/** Footer Class **/
 .footer {
     padding: 30px;
     clear: both;
